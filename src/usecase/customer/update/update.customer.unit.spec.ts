@@ -33,6 +33,6 @@ describe('Unit test update customer use case', () => {
 
         const output = await updateCustomerUseCase.execute(input)
 
-        expect(output).toEqual(output)
+        expect(output).toEqual(input)
     });
 });

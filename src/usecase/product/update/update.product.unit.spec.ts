@@ -33,7 +33,7 @@ describe('Unit test update product usecase', () => {
         const output = await usecase.execute(input)
 
 
-        expect(output).toEqual({ id: input.id, name: input.name, price: input.price })
+        expect(output).toEqual(input)
 
     });
 });
