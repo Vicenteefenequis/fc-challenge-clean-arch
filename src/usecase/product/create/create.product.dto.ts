@@ -1,7 +1,7 @@
 
 export interface InputCreateProductDto {
     name: string;
-    price: string;
+    price: number;
 }
 
 
